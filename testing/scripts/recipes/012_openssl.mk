@@ -1,8 +1,8 @@
 #!/usr/bin/make
 
-PV  = 1.0.1e
+PV  = 1.0.1e-2+deb7u17
 PKG = openssl-$(PV)
-SRC = http://download.strongswan.org/testing/openssl-fips/
+SRC = http://download.strongswan.org/testing/openssl-fips/$(PV)/
 
 all: install
 
