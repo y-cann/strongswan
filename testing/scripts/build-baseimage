@@ -14,7 +14,7 @@ check_commands debootstrap mkfs.ext3 partprobe qemu-img qemu-nbd sfdisk
 # package includes/excludes
 INC=automake,autoconf,libtool,bison,flex,gperf,pkg-config,gettext
 INC=$INC,build-essential,libgmp-dev,libldap2-dev,libcurl4-openssl-dev,ethtool
-INC=$INC,libxml2-dev,libtspi-dev,libsqlite3-dev,openssh-server,tcpdump,psmisc
+INC=$INC,libxml2-dev,libtspi-dev,libsqlite3-dev,openssh-server,libpcap-dev,psmisc
 INC=$INC,openssl,vim,sqlite3,conntrack,gdb,cmake,libxerces-c-dev,libltdl-dev
 INC=$INC,liblog4cxx10-dev,libboost-thread-dev,libboost-system-dev,git-core,iperf
 INC=$INC,less,acpid,acpi-support-base,libldns-dev,libunbound-dev,dnsutils,screen
