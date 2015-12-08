@@ -412,6 +412,30 @@ INSERT INTO products (			/* 69 */
  'Debian 7.9 armv7l'
 );
 
+INSERT INTO products (      /* 70 */
+  name
+) VALUES (
+ 'Debian 8.1 i686'
+);
+
+INSERT INTO products (      /* 71 */
+  name
+) VALUES (
+ 'Debian 8.1 x86_64'
+);
+
+INSERT INTO products (      /* 72 */
+  name
+) VALUES (
+ 'Debian 8.2 i686'
+);
+
+INSERT INTO products (      /* 73 */
+  name
+) VALUES (
+ 'Debian 8.2 x86_64'
+);
+
 /* Directories */
 
 INSERT INTO directories (		/*  1 */
@@ -541,19 +565,19 @@ INSERT INTO files (				/*  6 */
 INSERT INTO algorithms (
   id, name
 ) VALUES (
-  32768, 'SHA1' 
+  32768, 'SHA1'
 );
 
 INSERT INTO algorithms (
   id, name
 ) VALUES (
-  16384, 'SHA256' 
+  16384, 'SHA256'
 );
 
 INSERT INTO algorithms (
   id, name
 ) VALUES (
-  8192, 'SHA384' 
+  8192, 'SHA384'
 );
 
 /* File Hashes */
@@ -919,6 +943,18 @@ INSERT INTO groups_product_defaults (
 INSERT INTO groups_product_defaults (
   group_id, product_id
 ) VALUES (
+  4, 70
+);
+
+INSERT INTO groups_product_defaults (
+  group_id, product_id
+) VALUES (
+  4, 72
+);
+
+INSERT INTO groups_product_defaults (
+  group_id, product_id
+) VALUES (
   5, 2
 );
 
@@ -986,6 +1022,18 @@ INSERT INTO groups_product_defaults (
   group_id, product_id
 ) VALUES (
   5, 67
+);
+
+INSERT INTO groups_product_defaults (
+  group_id, product_id
+) VALUES (
+  5, 71
+);
+
+INSERT INTO groups_product_defaults (
+  group_id, product_id
+) VALUES (
+  5, 73
 );
 
 INSERT INTO groups_product_defaults (
