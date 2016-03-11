@@ -1,6 +1,7 @@
 /*
- * Copyright (C) 2008-2015 Tobias Brunner
- * Hochschule fuer Technik Rapperswil
+ * Copyright (C) 2008-2016 Tobias Brunner
+ * HSR Hochschule fuer Technik Rapperswil
+ *
  * Copyright (C) 2010 Martin Willi
  * Copyright (C) 2010 revosec AG
  *
@@ -542,13 +543,14 @@ METHOD(kernel_interface_t, get_source_addr, host_t*,
 }
 
 METHOD(kernel_interface_t, get_nexthop, host_t*,
-	private_kernel_interface_t *this, host_t *dest, int prefix, host_t *src)
+	private_kernel_interface_t *this, host_t *dest, int prefix, host_t *src,
+	char **iface)
 {
 	if (!this->net)
 	{
 		return NULL;
 	}
-	return this->net->get_nexthop(this->net, dest, prefix, src);
+	return this->net->get_nexthop(this->net, dest, prefix, src, iface);
 }
 
 METHOD(kernel_interface_t, get_interface, bool,
