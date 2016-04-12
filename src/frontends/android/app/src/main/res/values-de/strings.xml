@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2012-2015 Tobias Brunner
+    Copyright (C) 2012-2016 Tobias Brunner
     Copyright (C) 2012 Giuliano Grassi
     Copyright (C) 2012 Ralf Sager
-    Hochschule fuer Technik Rapperswil
+    HSR Hochschule fuer Technik Rapperswil
 
     This program is free software; you can redistribute it and/or modify it
     under the terms of the GNU General Public License as published by the
@@ -50,8 +50,8 @@
     <string name="profile_edit_save">Speichern</string>
     <string name="profile_edit_cancel">Abbrechen</string>
     <string name="profile_name_label">Profilname:</string>
-    <string name="profile_name_hint">(Gateway-Adresse verwenden)</string>
-    <string name="profile_gateway_label">Gateway:</string>
+    <string name="profile_name_hint">(Server-Adresse verwenden)</string>
+    <string name="profile_gateway_label">Server:</string>
     <string name="profile_vpn_type_label">Typ:</string>
     <string name="profile_username_label">Benutzername:</string>
     <string name="profile_password_label">Passwort:</string>
@@ -77,7 +77,7 @@
     <string name="alert_text_nocertfound">Bitte wählen Sie eines aus oder aktivieren Sie <i>Automatisch wählen</i></string>
     <string name="alert_text_out_of_range">Bitte geben Sie eine Nummer von %1$d - %2$d ein</string>
     <string name="tnc_notice_title">EAP-TNC kann Ihre Privatsphäre beeinträchtigen</string>
-    <string name="tnc_notice_subtitle">Gerätedaten werden an den Gateway-Betreiber gesendet</string>
+    <string name="tnc_notice_subtitle">Gerätedaten werden an den Server-Betreiber gesendet</string>
     <string name="tnc_notice_details">&lt;p>Trusted Network Connect (TNC) erlaubt Gateway-Betreibern den Gesundheitszustand von Endgeräten zu prüfen.&lt;/p>&lt;p>Dazu kann der Betreiber Daten verlangen, wie etwa eine eindeutige Identifikationsnummer, eine Liste der installierten Pakete, Systemeinstellungen oder kryptografische Prüfsummen von Dateien.&lt;/p>&lt;b>Solche Daten werden nur übermittelt nachdem die Identität des Gateways geprüft wurde.&lt;/b></string>
 
     <!-- Trusted certificate selection -->
