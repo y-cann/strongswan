@@ -39,4 +39,10 @@
     <color
         name="panel_separator">#5a5a5a</color>
 
+    <color
+        name="list_activated">#96BDC2</color>
+
+    <color
+        name="list_pressed">#5a5a5a</color>
+
 </resources>
